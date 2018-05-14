@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.maxwow" name="maxwow repository" version="0.0.1" provider-name="maxgrass">
+	<extension point="xbmc.addon.metadata">
+        <summary lang="en">MaxWoW Add-on Repository</summary>
+        <description lang="en">MaxWoW Add-on Repository</description>
+        <description lang="de">MaxWoW Add-on Repository</description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="service.autostart" name="autostart" version="$VERSION" provider-name="maxgrass">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">Opens a window or launches an addon when Kodi starts.</description>
+        <description lang="de">Öffnet ein Fenster oder ein Addon beim Kodi-Start.</description>
+        <disclaimer lang="en"></disclaimer>
+        <email>max@maxgrass.eu</email>
+        <platform>all</platform>
+        <language></language>
+        <summary lang="en">Actions on Kodi start</summary>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/maxgrass</source>
+        <website>http://maxgrass.eu/</website>
+    </extension>
+</addon>
+</addons>

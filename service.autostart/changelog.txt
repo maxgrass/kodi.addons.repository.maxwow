@@ -1,0 +1,11 @@
+[B]0.0.4[/B]
+- Github repo
+
+[B]0.0.3[/B]
+- Updated metadata
+
+[B]0.0.2[/B]
+- Added settings
+
+[B]0.0.1[/B]
+- Initial Release
