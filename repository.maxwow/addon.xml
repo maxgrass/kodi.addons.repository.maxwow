@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.maxwow" name="MaxWoW Kodi Add-ons" version="0.0.1" provider-name="maxgrass">
-	<extension point="xbmc.addon.repository" name="MaxWoW Kodi Add-ons Repository">
+    <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+	<extension point="xbmc.addon.repository" name="MaxWoW Repository">
 		<info compressed="false">https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/addon.xml</info>
 		<checksum>https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/addon.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/</datadir>
