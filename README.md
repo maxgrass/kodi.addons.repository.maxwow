@@ -1,12 +1,8 @@
-# repository.sendtokodi
-SendToKodi addon Repository
+# repository.maxwow
+MaxWoW addon Repository
 
-![GitHub Logo](https://github.com/firsttris/repository.sendtokodi/raw/master/repository.sendtokodi/icon.png)
+![GitHub Logo](https://github.com/maxgrass/kodi.addons/raw/master/repository.maxwow/icon.png)
 
-[Download Repository](https://github.com/firsttris/repository.sendtokodi/raw/master/repository.sendtokodi/repository.sendtokodi-0.0.1.zip)
+[Download Repository](https://github.com/maxgrass/repository.sendtokodi/raw/master/repository.sendtokodi/repository.sendtokodi-0.0.1.zip)
 
-### Continuous integration
-
-[![Build Status](https://travis-ci.org/firsttris/plugin.video.sendtokodi.svg?branch=master)](https://travis-ci.org/firsttris/plugin.video.sendtokodi) 
-
-:dizzy_face:
+😏
