@@ -1,18 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.maxwow" name="MaxWoW Kodi Add-ons" version="0.0.1" provider-name="maxgrass">
+<addon id="repository.maxwow" name="MaxWoW Kodi Add-ons Repository" version="0.0.1" provider-name="maxgrass">
     <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-	<extension point="xbmc.addon.repository" name="MaxWoW Repository">
-		<info compressed="false">https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/addon.xml</info>
-		<checksum>https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/addon.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/</datadir>
-	</extension>
+    <extension point="xbmc.addon.repository" name="MaxWoW Repository">
+    	<info compressed="false">https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/addon.xml</info>
+	<checksum>https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/addon.xml.md5</checksum>
+	<datadir zip="true">https://raw.githubusercontent.com/maxgrass/repository.maxwow/master/</datadir>
+    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">MaxWoW Add-on Repository</summary>
         <description lang="en">MaxWoW Add-on Repository</description>
         <description lang="de">MaxWoW Add-on Repository</description>
         <disclaimer lang="en"></disclaimer>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+            <screenshot>screenshot-01.png</screenshot>
+        </assets>
     </extension>
 </addon>

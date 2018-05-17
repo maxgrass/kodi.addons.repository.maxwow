@@ -1,11 +1,14 @@
-[B]0.0.4[/B]
-- Github repo
+0.0.5
+* Fanart and icon
 
-[B]0.0.3[/B]
-- Updated metadata
+0.0.4
+* Github repo
 
-[B]0.0.2[/B]
-- Added settings
+0.0.3
+* Updated metadata
 
-[B]0.0.1[/B]
-- Initial Release
+0.0.2
+* Added settings
+
+0.0.1
+* Initial Release
