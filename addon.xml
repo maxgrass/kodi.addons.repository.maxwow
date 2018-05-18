@@ -30,9 +30,9 @@
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
         <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-            <screenshot>screenshot-01.png</screenshot>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+            <screenshot>resources/screenshot-01.png</screenshot>
         </assets>
         <news>- automated updates</news>
         <description lang="en">Opens a window or launches an addon when Kodi starts.</description>
