@@ -23,9 +23,9 @@
     </extension>
 </addon>
 
-<addon id="service.autostart" name="autostart" version="0.0.5" provider-name="maxgrass">
+<addon id="service.autostart" name="autostart" version="0.0.6" provider-name="maxgrass">
     <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="xbmc.python" version="2.9.0"/>
     </requires>
     <extension point="xbmc.service" library="service.py" start="login"/>
     <extension point="xbmc.addon.metadata">
